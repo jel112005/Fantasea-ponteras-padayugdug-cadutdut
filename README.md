@@ -1,1 +1,214 @@
-# Fantasea-ponteras-padayugdug-cadutdut
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fantasea Resort</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #ffc0cb;
+      color: #2c3e50;
+    }
+
+    .title-section {
+      background: #b2dfdb;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .title-section h1 {
+      font-size: 3em;
+      color: #004d40;
+    }
+
+  .video-wrapper {
+      display: flex;
+      justify-content: center;
+      margin: 30px auto;
+      position: relative;
+      padding: 20px;
+      background: linear-gradient(135deg, #ffc1e3, #ffe6f0);
+      border: 5px dashed #ff99cc;
+      border-radius: 20px;
+      max-width: 850px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .video-wrapper video {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #00695c;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .cta {
+      background: #a7ffeb;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .cta button {
+      background: #00796b;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .cta button:hover {
+      background: #004d40;
+    }
+
+    .contact-details {
+      background: #e0f2f1;
+      border-top: 2px solid #80cbc4;
+      border-bottom: 2px solid #80cbc4;
+      padding: 40px 20px;
+    }
+
+    .contact-details h2 {
+      color: #00695c;
+      margin-bottom: 15px;
+    }
+
+    .contact-details p {
+      margin-bottom: 25px;
+      font-size: 1.05em;
+    }
+
+    .contact-list {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 1.1em;
+    }
+
+    .contact-list li {
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .contact-list ul {
+      list-style: disc;
+      margin-left: 20px;
+      margin-top: 5px;
+    }
+
+    .managed-by {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .managed-by h2 {
+      color: #004d40;
+      margin-bottom: 15px;
+    }
+
+    .managed-by p {
+      font-size: 1.2em;
+      margin: 5px 0;
+    }
+
+    footer {
+      background: #80cbc4;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="title-section">
+    <h1>Fantasea Resort</h1>
+  </div>
+
+  <div class="video-wrapper">
+    <video autoplay loop controls>
+      <source src="view of resort.mp4" type="video/mp4"> 
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="section">
+    <h2>Relaxing Nature</h2>
+    <p>Fantasea Resort is a beachfront getaway known for its affordable cottages, relaxing atmosphere, and scenic ocean views. It is a popular destination for family bonding, celebrations, and vacations, offering a peaceful environment with fresh sea air and saltwater.</p>
+
+    <div class="gallery">
+      <img src="entrance view.jpeg" alt="Fantasea resort view">
+      <img src="guest house.jpeg" alt="Fantasea Resort view">
+      <img src="bed room.jpeg" alt="Fantasea Resort View">
+      <img src="comfort room.jpeg" alt="Fantasea Resort View">
+      <img src="sea.jpeg" alt="Fantasea Resort View">
+    </div>
+  </div>
+
+  <div class="cta">
+    <h2>Book your escape today!</h2>
+    <button onclick="alert('Booking feature coming soon!')">Book Now</button>
+  </div>
+
+  <!-- Contact Details Section -->
+  <div class="section contact-details">
+    <h2>Contact Details</h2>
+    <p>Find all the information you need before planning your visit.</p>
+
+    <ul class="contact-list">
+      <li><strong>Entrance Fee:</strong> No entrance fee</li>
+      <li><strong>Operating Hours:</strong></li>
+      <ul>
+        <li>Open daily: 6 AM</li>
+        <li>Close daily: 9 PM</li>
+      </ul>
+      <li><strong>Cottage Fee:</strong></li>
+      <ul>
+        <li>Day use (No overnight): ₱500 - ₱600</li>
+        <li>Overnight with room: ₱5,000</li>
+      </ul>
+      <li><strong>Others:</strong> Parking Available, and all amenities included.</li>
+    </ul>
+  </div>
+
+  <!-- Managed By Section -->
+  <div class="managed-by">
+    <h2>Managed By</h2>
+    <p>•Ponteras, Jelan</p>
+    <p>•Padayogdog, Analou</p>
+    <p>•Cadutdut, Princess</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Fantasea Resort. All rights reserved.
+  </footer>
+
+</body>
+</html>
